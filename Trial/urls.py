@@ -1,7 +1,8 @@
 """
 Definition of urls for Trial.
 """
-
+from django.views.static import serve
+from django.conf import settings
 from datetime import datetime
 
 from django.conf.urls import url

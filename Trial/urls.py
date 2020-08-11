@@ -3,6 +3,7 @@ Definition of urls for Trial.
 """
 
 from datetime import datetime
+
 from django.conf.urls import url
 import django.contrib.auth.views
 

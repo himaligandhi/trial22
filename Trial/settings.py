@@ -123,7 +123,7 @@ USE_TZ = True
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    '/home/site/wwwroot/static',
+    '/home/site/wwwroot/app/static/app/scripts',
     os.path.join(BASE_DIR,'static'),
 ]
 
